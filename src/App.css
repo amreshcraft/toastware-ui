@@ -1,7 +1,45 @@
- .info {
+ .title{
+  color: #28aefc;
+  font-size: 38px;
+  text-align: center;
+ }
+ .heading{
+  color: #fca028;
+  font-size: 38px;
+  text-align: center;
+ }
+ 
+ .btn {
   background-color: rgb(176, 176, 245);
   border: none;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 5px 12px;
   font-size: 22px;
+  text-align: center;
+}
+
+.info{
+  background-color: rgb(134, 134, 241);
+}
+
+.warning{
+  background-color: #fafc79;
+}
+
+.error{
+  background: #f84949;
+}
+
+.success{
+  background: #41e621;
+}
+
+
+.demo,.demo-position,.promise{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 15px;
+margin: 15px;
 }
