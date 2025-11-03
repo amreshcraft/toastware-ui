@@ -37,7 +37,7 @@ export default function App() {
         loading :"fetching...",
         success:"fetch data successfully",
         error :"Error while fetching..."
-      })}}>Promise-bases-Notification  </button>
+      })}}>Promise-based-Notification  </button>
 
 
 
